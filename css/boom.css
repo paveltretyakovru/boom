@@ -1,0 +1,37 @@
+/* Гланвй клаас :) */
+.boom-svg{
+	z-index	: 10;
+	overflow: hidden;
+	position: absolute
+}
+
+body { 
+	background	: #231F20;
+	font-family	: "proxima-nova", "Helvetica Neue", Helvetica, arial, sans-serif;
+}
+
+#container{
+	margin		: auto;
+	width		: 700px;
+	height		: 700px;
+	background	: #000;
+	margin-top	: 50px;
+	box-shadow 	: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 14px
+}
+
+#svg{
+	border	: 1px dashed black;
+	width	: 500px; 
+	height	: 500px; 
+	align	: auto
+}
+
+#button-boom{ 
+	font-size:30px;
+	width: 100%;
+	border-radius: 14px 14px 0px 0px;
+	background: #BAB0AA;
+	color: #383136
+}
+#button-boom:focus , #button-boom:hover{ border: none }
